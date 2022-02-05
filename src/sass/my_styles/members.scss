@@ -1,0 +1,91 @@
+.container_memb {
+    margin-right: 24px;
+    margin-left: 24px;
+}
+.members {
+    margin-bottom: 272px;
+    position: relative;
+    z-index: 2;
+    @media screen and (max-width: 992px) {
+            margin-bottom: 140px;
+        }
+
+    &__title {
+        font-weight: 800;
+        font-size: 42px;
+        line-height: 49px;
+        color: #0d5c6d;
+        margin-bottom: 66px;
+    }
+    &__photo {
+        min-width: 178px;
+        min-height: 178px;
+        max-width: 178px;
+        max-height: 178px;
+        margin-left: 16px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        &.babarash {
+            background-image: url(../../img/bab.png);
+        }
+        &.luts {
+            background-image: url(../../img/luts.png);
+        }
+        &.bar {
+            background-image: url(../../img/bar.png);
+        }
+        &.hai {
+            background-image: url(../../img/hai.png);
+        }
+        &.wom1 {
+            background-image: url(../../img/wom1.png);
+        }
+        &.rom {
+            background-image: url(../../img/rom.png);
+        }
+        &.sah {
+            background-image: url(../../img/sah.png);
+        }
+    }
+    &__textBlock {
+        margin-left: 40px;
+    }
+    &__name {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 1.2;
+        color: #0d5c6d;
+    }
+    &__position {
+        font-size: 14px;
+        line-height: 1.2;
+        color: #666666;
+        margin-bottom: 46px;
+    }
+    &__description {
+        font-size: 14px;
+        line-height: 1.2;
+        margin-bottom: 66px;
+    }
+    &__more {
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 1.2;
+        a {
+            text-decoration: none;
+            color: #0d5c6d;
+        }
+    }
+    &__waves {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        bottom: -440px;
+        right: 0;
+        @media screen and (max-width: 992px) {
+            bottom: -200px;
+        }
+    }
+}

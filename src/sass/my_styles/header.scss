@@ -1,0 +1,81 @@
+.header {
+    margin-top: 6px;
+    margin-bottom: 82px;
+    &__logo {
+        height: 50px;
+        margin-left: 22px;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        color: #003232;
+        margin-left: 30px;
+        @media screen and (max-width: 992px) {
+            display: none;
+        }
+    }
+    &__arrows {
+        height: 14px;
+        padding-top: 4px;
+        margin-left: 6px;
+        @media screen and (max-width: 992px) {
+            display: none;
+        }
+    }
+    &__signIn_img {
+        height: 20px;
+        margin-left: 30px;
+    }
+    &__signIn_text {
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 1.2;
+        color: #003232;
+        margin-left: 6px;
+    }
+    &__leng {
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 1.2;
+        color: #003232;
+        margin-left: 26px;
+        margin-right: 20px;
+    }
+    li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    &__bmenu{
+        @media screen and (max-width: 992px) {
+            cursor: pointer;
+            .line1{
+                min-width: 20px;
+                min-height: 2px;
+                margin-bottom: 4px;
+                background-color: #003232;
+                margin-right: 10px;
+            }
+            .line2{
+                min-width: 20px;
+                min-height: 2px;
+                margin-bottom: 4px;
+                background-color: #003232;
+                margin-right: 10px;
+            }
+            .line3{
+                min-width: 20px;
+                min-height: 2px;
+                margin-bottom: 4px;
+                background-color: #003232;
+                margin-right: 10px;
+            }
+        } 
+    }
+}

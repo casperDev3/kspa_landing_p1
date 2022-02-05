@@ -1,0 +1,99 @@
+.hero {
+    margin-bottom: 124px;
+    position: relative;
+    @media screen and (max-width: 992px) {
+            margin-bottom: 56px;
+        }
+    .container {
+        margin-left: 12px;
+        /*margin-right: 12px;*/
+        .row.hero__row {
+            width: 100vw;
+        }
+    }
+    &__title {
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        color: #0d5c6d;
+        padding-top: 96px;
+        margin-bottom: 20px;
+        z-index: 3;
+        @media screen and (max-width: 992px) {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    &__description {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        color: #003232;
+        margin-bottom: 34px;
+        z-index: 3;
+         @media screen and (max-width: 992px) {
+            margin-bottom: 20px;
+        }
+    }
+    &__img_line {
+        margin-bottom: 22px;
+        z-index: 3;
+         @media screen and (max-width: 992px) {
+            margin-right: 36px;
+        }
+        
+    }
+    &__img {
+        min-width: 152px;
+        min-height: 152px;
+        border-radius: 50%;
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        z-index: 3;
+        &.babarash {
+            background-image: url("../../img/bab.png");
+        }
+        &.hai {
+            background-image: url("../../img/hai.png");
+        }
+        &.luts {
+            background-image: url("../../img/luts.png");
+        }
+        &.wom {
+            background-image: url("../../img/wom1.png");
+        }
+        &.rom {
+            background-image: url("../../img/rom.png");
+        }
+        &.bar {
+            background-image: url("../../img/bar.png");
+        }
+        &.sah {
+            background-image: url("../../img/sah.png");
+        }
+        @media screen and (max-width: 992px) {
+            &.emp1{
+                display: none;
+            }
+            &.emp2{
+                display: none;
+            }
+        }
+        
+    }
+    &__waves {
+        position: absolute;
+        z-index: 1;
+        padding: 0;
+        margin: 0;
+        max-height: 396px;
+        min-height: 396px;
+        left: 0;
+        top: 326px;
+    }
+}
